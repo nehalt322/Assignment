@@ -1,0 +1,185 @@
+
+
+body{
+    background: #F0F1F7;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ############### Side bar ################## */
+
+.side_bar_area{
+    display: flex;
+    position: relative;
+}
+
+.side_bar_area .side_bar{
+ position:fixed;
+ height: 100%;
+ width: 200px;
+ background: #5767C0;
+ padding: 16px 16px 16px 0px;
+}
+
+.side_bar_area .side_bar h2{
+    color: #F0F1F7;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.side_bar_area .side_bar ul{
+    padding: 0;
+    margin: 0;
+}
+
+.side_bar_area .side_bar ul li{
+    list-style: none;
+}
+
+.side_bar_area .side_bar ul li a{
+    text-decoration: none;
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    font-family:serif;
+    padding: 15px;
+    color: #F0F1F7;
+    text-transform: uppercase;
+
+}
+
+.side_bar_area .side_bar ul li:hover{
+    background-image: linear-gradient(to right,#b6c0fc,#5767C0)
+}
+.side_bar_area .side_bar ul li a:hover{
+    color: #fff;
+}
+
+/* ################## Card View ################### */
+.side_bar_area .side_bar .card{
+    padding: 10px;
+   
+    
+}
+
+.side_bar_area .side_bar .card .card_view{
+    width: 100%;
+    height: 270px;
+    background-color: #F0F1F7;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-content: center;
+    align-self: center;
+}
+
+.side_bar_area .side_bar .card .card_view h3{
+    text-align: center;
+    color: #292C32;
+    margin: 0;
+    font-size: 1em;
+}
+.side_bar_area .side_bar .card .card_view h4{
+    text-align: center;
+    color: #292C32;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 0.75em;
+
+}
+
+.side_bar_area .side_bar .card .card_view h5{ text-align: center;
+    color: #292C32;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 0.6em;
+}
+
+.side_bar_area .side_bar .card .card_view h1{
+    text-align: center;
+    color: #292C32;
+    margin-top:20px;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+.side_bar_area .side_bar .card .card_view h2{
+    color: #292C32;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 2em;
+
+}
+
+/* ################# MAIN CONTENT ################# */
+.main_content{
+    width: auto;
+    margin-left:220px;
+}
+
+/* .img_class{ 
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 15px;
+} */
+.main_content .heading{
+    margin-left: 10px;
+    color: #292C32;
+    padding: 20px;
+}
+
+.main_content .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_content .row .column{
+    float: left;
+}
+
+.main_content .row .column .img_class{
+    width: 180px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.main_content .row .column .city_name{
+    text-align: center;
+    margin: 0;
+    color: #292C32;
+    font-size: 1em;
+}
+
+.main_content .row .column .square{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 100px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.main_content .row .column .sun{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    padding: 5px;
+}
+.main_content .row .column h5{
+    margin:0;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.main_content .row .column h4{
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.75em;
+    color: #292C32;
+}
